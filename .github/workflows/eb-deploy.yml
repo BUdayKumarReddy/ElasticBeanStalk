@@ -23,6 +23,6 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: My_Beanstalk
           environment_name: MyBeanstalk-env
-          region: ap-south-1
+          region: us-east-1
           version_label: v-${{ github.run_number }}
           deployment_package: deploy.zip
